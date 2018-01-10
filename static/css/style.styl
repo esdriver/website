@@ -1,0 +1,419 @@
+@import ('nib')
+@import ('rupture')
+@import url('//fonts.googleapis.com/css?family=Hind+Vadodara:400,300,500,600')
+
+rupture.scale = 0 568px 768px 1024px 1280px
+rupture.scale-names = 'sm' 'md' 'lg' 'xl' 'hd'
+
+_accent = #5ab35a
+
+.sans-font
+  font-family 'Hind Vadodara', sans-serif
+
+.pure-g [class *='pure-u'],
+.pure-g-r [class*="pure-u"]
+  @extends .sans-font
+
+html,
+body
+  width 100%
+  height 100%
+  @extends .sans-font
+
+.pure-form
+  input[type='text'], input[type='password'], input[type='email'], input[type='url'], input[type='date'], input[type='month'], input[type='time'], input[type='datetime'], input[type='datetime-local'], input[type='week'], input[type='number'], input[type='search'], input[type='tel'], input[type='color'], select, textarea
+    @extends .sans-font
+    font-size 14px
+  button
+    @extends .sans-font
+
+.pure-button
+  @extends .sans-font
+  background _accent
+  color #FFF
+  font-size 12px
+  font-weight 600
+  letter-spacing 0.2em
+  border-radius 0
+  padding 11px 15px 13px 15px
+  text-transform uppercase
+  &:hover
+    background lighten(_accent, 10%)
+  span,
+  i
+    display inline-block
+    vertical-align middle
+
+h1, h2, h3,
+h4, h5, h6
+  font-weight 400
+
+h1
+  margin 0
+  text-transform uppercase
+  font-size 16px
+  font-weight 600
+h2
+  margin 0
+  text-transform uppercase
+  font-size 14px
+  font-weight 600
+
+p
+  font-size 14px
+  line-height 1.9em
+
+strong
+  font-weight 500
+
+_spacer = 5, 10, 20, 40, 60, 80, 100, 150
+
+for _val in _spacer
+  .spacer-{ _val }
+    height ( _val * 1px )
+
+.page-spacer
+  height 250px
+
+.text-left
+  text-align left
+.text-justify
+  text-align justify
+.text-center
+  text-align center
+.text-right
+  text-align right
+
+hr
+  border none
+  border-top 1px solid rgba(#000, 0.1)
+  &.small
+    max-width 280px
+    margin auto
+    text-align center
+
+.page
+  width 100%
+  height auto
+  &.page-fullscreen
+    height 100%
+  &.page-dark
+    background #292929
+    color #F2F2F2
+  &.page-light
+    background #F2F2F2
+    color #333
+    h2
+      color #999
+
+.container
+  max-width 1000px
+  margin 0 auto
+  padding 0 20px
+
+.padding
+  padding 40px
+
+#header
+  position absolute
+  z-index 20
+  top 0
+  left 0
+  right 0
+  transition background 0.3s ease
+
+  &.fixed
+    background #191919
+    position fixed
+    .padding
+      padding-top 20px
+      padding-bottom 20px
+
+menu
+  padding 0
+  margin 0
+  float right
+
+  font-weight 300
+  font-size 14px
+
+  span + ul
+    margin-left 20px
+
+  ul
+    margin 0 -10px
+    padding 0
+    list-style none
+    display inline-block
+    &.languages
+      margin-left 20px
+
+      +below('sm')
+        display none
+
+      li
+        margin 0
+        a
+          padding 7px
+          opacity 0.5
+
+    li
+      display inline-block
+
+      a
+        padding 7px 15px
+        font-weight 600
+        display block
+        color #FFF
+        outline none
+        transition color 0.4s ease
+        text-decoration none
+        text-transform uppercase
+
+    &:hover
+      li
+        a
+          color rgba(#FFF, 0.3)
+          &:hover
+            color #FFF
+
+#footer
+  color #999
+  background #F2F2F2
+  .copy
+    font-size 12px
+    color #666
+    text-align center
+    a
+      color _accent
+    &.languages
+      a
+        margin 0 5px
+  menu
+    ul
+      li
+        a
+          color #666
+          outline none
+      &:hover
+        li
+          a
+            color rgba(#666, 0.3)
+            &:hover
+              color #666
+
+#contattaci
+  input[type='text'], input[type='password'], input[type='email'], input[type='url'], input[type='date'], input[type='month'], input[type='time'], input[type='datetime'], input[type='datetime-local'], input[type='week'], input[type='number'], input[type='search'], input[type='tel'], input[type='color'], select, textarea
+    width 100%
+    border 1px solid rgba(#999, 0.3)
+    transition border-color 0.5s ease
+    background none
+    box-shadow none
+    border-radius 0
+    padding 12px 15px
+    margin-bottom 20px
+    &:hover
+      border 1px solid rgba(#999, 0.6)
+    &:focus
+      border 1px solid rgba(#999, 1)
+
+  input[type='checkbox']
+    margin-right 10px
+
+  label
+    font-size 13px
+    margin-bottom 20px
+  a
+    color _accent
+
+.cards
+  img
+    margin 0 5px 10px 5px
+    display inline-block
+    vertical-align middle
+  .comingsoon
+    margin 0 5px 10px 5px
+    display inline-block
+    vertical-align middle
+    border 2px dashed #CCC
+    border-radius 3px
+    img
+      margin 0
+      width 60px
+      height 36px
+      filter grayscale(1)
+      opacity 0.5
+
+#servizi
+  .service
+    text-align center
+    padding 40px 20px
+    i
+      font-size 30px
+      display block
+      margin 0 auto 10px auto
+      color #CCC
+      transition all 0.2s ease
+    span
+      display block
+      font-size 14px
+      font-weight 500
+      line-height 18px
+      text-transform uppercase
+      small
+        font-weight 300
+        display block
+        text-transform none
+        margin-top 10px
+    &:hover
+      i
+        color #999
+
+#about
+  .about-pic
+    background-color #EEE
+    background-size cover
+    background-position center
+    background-repeat no-repeat
+    position relative
+    min-height 300px
+    .pic-mask
+      position absolute
+      top 0
+      left 0
+      bottom 0
+      width 100px
+      height 100%
+      background-size 100% 100%
+      background-image url('../img/pic-mask.png')
+      background-repeat no-repeat
+    .car-model
+      position absolute
+      bottom 20px
+      left 50px
+      span
+        display block
+        white-space nowrap
+        font-weight 500
+        font-size 14px
+        color #FFF
+        text-shadow 0 0 2px rgba(#000, 0.2)
+
+  .about-text
+    width 480px
+    max-width 100%
+    text-align left
+    display inline-block
+
+
+#intro
+  position relative
+  overflow hidden
+  #video-background
+    position absolute
+    bottom 0px
+    right 0px
+    min-width 100%
+    min-height 100%
+    width auto
+    height auto
+    z-index -1000
+    overflow hidden
+  .video-mask
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    background rgba(#191919, 0.8)
+
+  h1
+    position relative
+    z-index 10
+    color #FFF
+    text-align center
+    text-transform none
+    font-weight 500
+    font-size 38px
+    line-height 38px
+    letter-spacing -0.07em
+    small
+      font-weight 300
+      font-size 30px
+    span
+      position absolute
+      left 40px
+      right 40px
+      text-align center
+      opacity 0
+      transition opacity 1s ease
+      &.fade
+        opacity 1
+        transition opacity 1s ease 1.5s
+
+  .scroll-down
+    position absolute
+    width 50px
+    height 50px
+    background rgba(#191919, 0.2)
+    text-align center
+    outline none
+    bottom 0
+    left 50%
+    margin-left -(@width / 2)
+    transition all 0.5s ease
+    animation bounce 2s infinite
+    color rgba(#FFF, 0.3)
+
+    &:hover
+      background rgba(#191919, 1)
+      color rgba(#FFF, 1)
+
+    i
+      font-size 36px
+      margin-top 5px
+
+@keyframes bounce
+  0%
+    padding-bottom 20px
+  50%
+    padding-bottom 0
+  100%
+    padding-bottom 20px
+
++below('md')
+  .padding
+    padding 20px
+  .container
+    padding 0
+  #header
+    text-align center
+    position fixed
+  a.logo
+    img
+      width 80px
+      height auto
+  menu
+    float none
+    margin 10px auto 0 auto
+    text-align center
+  #about
+    .text-right
+      text-align left
+    .about-text
+      width auto
+  #servizi
+    .service
+      padding 20px 10px
+  #contattaci
+    .mobile-fix
+      h2,
+      .spacer-20
+        display none
+  #footer
+    text-align center
+
+  #about
+    .about-pic
+      .pic-mask
+        background none

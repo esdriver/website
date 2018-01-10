@@ -1,0 +1,101 @@
+{
+  "language": "it",
+  "about": {
+    "title": "Chi siamo",
+    "text": "ES Driver offre un servizio di noleggio auto con conducente che permette di avere un’autista professionale che si occuperà dei vostri spostamenti siano essi di affari che di piacere."
+  },
+  "where": {
+    "title": "Dove operiamo",
+    "text": "Operiamo nella zona di Milano e in tutta la Lombardia per raggiungere tutte le destinazioni nazionali ed estere."
+  },
+  "payment": {
+    "title": "Pagamenti",
+    "text": "Accettiamo un grande numero di carte a bordo!"
+  },
+  "vehicle": "Mercedes Classe S 350",
+  "services": {
+    "title": "Servizi",
+    "list": [{
+      "icon": "fa-plane",
+      "headline": "Spostamenti da/per aeroporti lombardi",
+      "subtitle": "Malpensa, Linate, Orio al Serio"
+    },
+    {
+      "icon": "fa-street-view",
+      "headline": "Viaggi di affari o di piacere",
+      "subtitle": "su tutto il territorio nazionale e estero"
+    },
+    {
+      "icon": "fa-car",
+      "headline": "Autista “a disposizione”",
+      "subtitle": ""
+    },
+    {
+      "icon": "fa-wifi",
+      "headline": "Free Wi-Fi",
+      "subtitle": ""
+    },
+    {
+      "icon": "fa-newspaper-o",
+      "headline": "Quotidiani nazionali ed esteri",
+      "subtitle": ""
+    },
+    {
+      "icon": "fa-gift",
+      "headline": "Acqua e cioccolatini",
+      "subtitle": ""
+    },
+    {
+      "icon": "fa-money",
+      "headline": "Prezzo “senza sorprese”",
+      "subtitle": "concordato all’inizio del viaggio"
+    },
+    {
+      "icon": "fa-credit-card",
+      "headline": "Diversi sistemi di pagamento accettati",
+      "subtitle": "Bancomant, Carte di Credito e Contanti"
+    }],
+    "leftcolumn": [
+      "<strong>ES Driver</strong> propone un servizio accurato, affidabile e puntuale per i Vostri spostamenti, siano essi d’affari o di piacere, su tutto il territorio nazionale.",
+      "Il servizio su prenotazione, consente la tranquillità di iniziare il vostro viaggio <strong>all’ora da voi scelta con il massimo relax</strong>.",
+      "Oltre agli spostamenti, vi è la possibilità di avere, a richiesta, <strong>“l’autista a vostra disposizione”</strong> che vi accompagnerà per tutti gli impegni della vostra agenda rimanendo disponibile il tempo necessario."
+    ],
+    "rightcolumn": [
+      "Nello svolgere il servizio perseguiamo <strong>La cura al dettaglio</strong>, Al Cliente che sale a bordo viene offerta la possibilità di collegarsi a internet tramite <strong>Wi-Fi free</strong>, prese multiple di ricarica sono disponibili per device quali cellulari e tablet che possono servirgli durante la giornata.",
+      "Acqua, caramelle e cioccolatini, così come quotidiani italiani e stampa straniera vengono messi a disposizione per rendere il <strong>viaggio piacevole e confortevole</strong>."
+    ]
+  },
+  "contact": {
+    "title": "Contattaci",
+    "content": [
+      "Per richiedere un preventivo o per prenotare un trasferimento, puoi contattarci direttamente dal sito. In alternativa puoi inviare una email all'indirizzo <a href='mailto:info@esdriver.com'>info@esdriver.com</a> o chiamare il numero <a href='tel:+393898443108'>+39 389 8443108</a>",
+      "Risponderemo al più presto a qualsiasi vostra richiesta.",
+      "<em>Buon viaggio!</em>"
+    ],
+    "form": {
+      "name": "Nome e Cognome",
+      "email": "Indirizzo email",
+      "phone": "Telefono",
+      "message": "Scrivi qui la tua richiesta",
+      "terms": "Dichiaro di accettare i <a href='https://www.iubenda.com/privacy-policy/7756646/full-legal', target='_blank'>Termini e Condizioni</a> del servizio",
+      "button": "Invia"
+    }
+  },
+  "footer": {
+    "languages": [{
+      "code": "it",
+      "slug": "/",
+      "text": "Italiano"
+    },
+    {
+      "code": "en",
+      "slug": "/en/",
+      "text": "Inglese"
+    }]
+  }
+
+}
+
+
+
+

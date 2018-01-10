@@ -1,0 +1,98 @@
+{
+  "language": "en",
+  "about": {
+    "title": "Meet the Team",
+    "text": "ES Driver offers a wide range of Chauffer services with professional drivers at your dispositions to drive you either for business or pleasure."
+  },
+  "where": {
+    "title": "Location",
+    "text": "We operate all over Milan and the Lombardy region so as to reach various destinations nationally and internationally."
+  },
+  "payment": {
+    "title": "Payments",
+    "text": "Accettiamo un grande numero di carte a bordo!"
+  },
+  "vehicle": "Mercedes S-Class 350",
+  "services": {
+    "title": "Services",
+    "list": [{
+      "icon": "fa-plane",
+      "headline": "Transfers To and From the airport Lombardy Area",
+      "subtitle": "Malpensa, Linate, Orio al Serio"
+    },
+    {
+      "icon": "fa-street-view",
+      "headline": "Business or Pleasure Travel Transfers",
+      "subtitle": "all over the National Region and abroad"
+    },
+    {
+      "icon": "fa-car",
+      "headline": "Chauffer Service",
+      "subtitle": ""
+    },
+    {
+      "icon": "fa-wifi",
+      "headline": "Free Wi-Fi",
+      "subtitle": ""
+    },
+    {
+      "icon": "fa-newspaper-o",
+      "headline": "International and National newspaper on board",
+      "subtitle": ""
+    },
+    {
+      "icon": "fa-gift",
+      "headline": "Water and chocolates available on board",
+      "subtitle": ""
+    },
+    {
+      "icon": "fa-money",
+      "headline": "Fixed Prices",
+      "subtitle": "No surprises"
+    },
+    {
+      "icon": "fa-credit-card",
+      "headline": "We Accept Debit Card, Credit Card and Cash",
+      "subtitle": ""
+    }],
+    "leftcolumn": [
+      "<strong>ES Driver</strong> provides an Excellent Service, Accurate, Reliable and Punctual for all of your transfers in <strong>complete comfort and relaxation</strong>, our services are upon reservation and our drivers will accompany you everywhere you need to go, and assist you through your daily schedules and remain at your disposition if necessary."
+    ],
+    "rightcolumn": [
+      "<strong>Quality Services</strong> are provided on board, such as Free Wi-Fi, Charging Facilities in order to charge your electronic devices (Mobiles, I-pad, note book) International and National Newspaper, Mineral Water, Sweets and Chocolate all at your disposition to <strong>make your travel a pleasant one.</strong>"
+    ]
+  },
+  "contact": {
+    "title": "Contact us",
+    "content": [
+      "Per richiedere un preventivo o per prenotare un trasferimento, puoi contattarci direttamente dal sito. In alternativa puoi inviare una email all'indirizzo <a href='mailto:info@esdriver.com'>info@esdriver.com</a> o chiamare il numero <a href='tel:+393898443108'>+39 389 8443108</a>",
+      "Risponderemo al più presto a qualsiasi vostra richiesta.",
+      "<em>Buon viaggio!</em>"
+    ],
+    "form": {
+      "name": "Fullname",
+      "email": "Email address",
+      "phone": "Phone number",
+      "message": "How can we help you?",
+      "terms": "I have read and understood <a href='https://www.iubenda.com/privacy-policy/7756646/full-legal', target='_blank'>the terms and conditions</a> of this service",
+      "button": "Send request"
+    }
+  },
+  "footer": {
+    "languages": [{
+      "code": "it",
+      "slug": "/",
+      "text": "Italian"
+    },
+    {
+      "code": "en",
+      "slug": "/en/",
+      "text": "English"
+    }]
+  }
+
+}
+
+
+
+
